@@ -10,6 +10,7 @@ internal class Program
         
         ReflectionManager reflectionManager = new ReflectionManager();
         var dets = reflectionManager.GetAllDetector();
+        
         foreach (var det in dets) { Console.WriteLine(det.Process()); }
 
         Console.WriteLine("Hello, World!");

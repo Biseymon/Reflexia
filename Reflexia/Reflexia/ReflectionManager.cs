@@ -10,7 +10,7 @@ namespace Reflexia
 {
     public class ReflectionManager
     {
-        public string path = @"D:\repos\Reflexia\Reflexia\PeopleDetector\bin\Debug\net8.0";
+        public string path = @"..\..\..\..\bin";
         public IEnumerable<IDetector> GetAllDetector()
         {
             var dets = new DirectoryInfo(path).GetFiles("*Detector*.dll");
